@@ -1,9 +1,7 @@
-: root {
+:root {
   font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size:1.6em;
   line-height: 1.5;
-  min-width: 600px;
-  min-width: 900px;
 }
 
 h1{
@@ -12,7 +10,18 @@ h1{
   line-height: 1.5;
 }
 
-article.class{
-   max-width: 75vw;
-   max-width: 50vw;
+@media only screen and
+(min-width: 600px) {
+
+  .chapter {
+    max-width: 75vw;
+  }
+}
+
+@media only screen and
+(min-width: 900px) {
+
+  .chapter {
+    max-width: 50vw;
+  }
 }
