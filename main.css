@@ -5,9 +5,10 @@
 }
 
 h1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Simonetta', cursive;
   font-size: 35px;
   line-height: 1.5;
+  text-align: center;
 }
 
 @media only screen and
@@ -15,6 +16,13 @@ h1{
 
   .chapter {
     max-width: 75vw;
+  }
+  .pics {
+    max-width: 45vw;
+    float: left;
+  }
+  p{
+    text-align: center;
   }
 }
 
@@ -24,4 +32,63 @@ h1{
   .chapter {
     max-width: 50vw;
   }
+  .pics {
+    max-width: 45vw;
+    float: left;
+  }
+}
+
+.booktitle{
+  height: 75vh;
+  background-image: url("prideandprejudiceunsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 1024px 768px;
+  background-color: #6E4635;
+  color: #C3CBC0;
+}
+
+.booktitle h1{
+  font-weight: 900;
+  margin: 0;
+}
+
+.booktitle p{
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.menu{
+  padding: 1em;
+  width: 100%;
+  background-color: #7F6F5E;
+  -webkit-box-shadow: -14px -18px 8px 3px rgba(32,17,12,1);
+  -moz-box-shadow: -14px -18px 8px 3px rgba(32,17,12,1);
+  box-shadow: -14px -18px 8px 3px rgba(32,17,12,1);
+}
+
+html * {
+
+    box-sizing: border-box;
+}
+
+[menu] ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+}
+
+.pics{
+  max-width: 100%;
+}
+
+
+.chapter p{
+  background-color: #4C2A1E;
 }
