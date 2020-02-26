@@ -16,13 +16,16 @@ h1{
 
   .chapter {
     max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
   }
   .pics {
     max-width: 45vw;
     float: left;
   }
   p{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -72,7 +75,7 @@ html * {
     box-sizing: border-box;
 }
 
-[menu] ul {
+.menu ul {
     display: flex;
     justify-content: space-between;
     margin: 0;
