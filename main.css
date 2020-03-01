@@ -64,7 +64,7 @@ h1{
 .menu{
   padding: 1em;
   width: 100%;
-  background-color: #7F6F5E;
+  background-color: #4C2A1E;
   -webkit-box-shadow: -14px -18px 8px 3px rgba(32,17,12,1);
   -moz-box-shadow: -14px -18px 8px 3px rgba(32,17,12,1);
   box-shadow: -14px -18px 8px 3px rgba(32,17,12,1);
@@ -93,5 +93,5 @@ body {
 
 
 .chapter p{
-  background-color: #4C2A1E;
+  background-color: #7F6F5E;
 }
